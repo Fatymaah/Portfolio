@@ -8,7 +8,8 @@ body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
-
+ /*heading*/
+ 
 h1,
 h2 {
   margin: 0;
@@ -20,4 +21,13 @@ h1.lg-heading {
 h2.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem, 1rem;
-  background: #8e0000; }
+  background: rgba(149, 0, 0, 0.5); }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%; }
