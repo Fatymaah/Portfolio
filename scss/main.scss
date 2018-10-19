@@ -1,15 +1,12 @@
-$primary-color: #8B0000;
-$secondary-color:#eece1a;
+@import 'config';
 
-@mixin easeOut {
-	transition: all 1.5s ease-out;
-}
 
 *{
 	box-sizing: border-box;
 }
 
 body{
+    @include background;
 	background: $primary-color;
 	color: #fff;
 	height: 100%;
