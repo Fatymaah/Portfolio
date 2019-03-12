@@ -1,15 +1,22 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Responsive Portfolio",
+  "description": "My Portfolio",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
-  "author": "Fatma",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fatymaah/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fatymaah/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Fatymaah/Portfolio#readme",
   "dependencies": {
-    "node-sass": "^4.9.4",
-    "sass": "^1.14.3"
+    "sass": "^1.17.2"
   }
 }
